@@ -157,6 +157,27 @@ aside a.button {
   font-size: 21px;
 }
 
+a.github-button {
+  width: 134px;
+  height: 59px;
+  line-height: 1.2;
+  font-size: 23px;
+  color: #fff;
+  padding-left: 68px;
+  padding-top: 19px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  display: block;
+  border-radius: 12px;
+  border-width: 0px;
+  background: #f18e00 url(../images/github-button.png) 0 0 no-repeat;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+a.github-button small {
+  display: block;
+  font-size: 11px;
+}
+
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
@@ -305,6 +326,7 @@ h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
 }
+
 
 p {
   margin-bottom: 20px;
@@ -460,6 +482,8 @@ footer a:hover {
   aside#sidebar a.button {
     display: none;
   }
+
+  
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
