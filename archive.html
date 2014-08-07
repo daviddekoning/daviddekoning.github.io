@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,17 +31,18 @@
         <section id="main-content">
           
           {{ content }}
-          
-          {% for post in site.posts limit:3 %}
-            <h2> {{ post.title }} </h2>
-            <p> {{ post.content }}</p>
-          {% endfor %}
-          
-			<a href="archive.html"><h2>Click here for older posts...</h2></a>
+                    
+          {% for post in site.posts %}
+			  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+			  {% if currentyear != theyear %}
+				<h2> {{ currentyear }} </h2>
+				{% capture theyear %}{{currentyear}}{% endcapture %} 
+			  {% endif %}
+				<p> <a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endfor %}
+
 
         </section>
-
-
 
         {% include aside.html %}
       </div>
