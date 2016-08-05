@@ -4,10 +4,10 @@ title: ddkto's ramblings
 ---
 # {{page.title}}
 
-{% for post in site.posts limit:3 %}
-## {{ post.title }}
+{% for post in site.posts limit:5 %}
+## <a href="{{ post.url }}">{{ post.title }}</a>
 
-{{ post.content }}
+{{ post.excerpt }}
 
 {% endfor %}
           
