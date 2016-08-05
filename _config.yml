@@ -8,7 +8,6 @@ twitter_username: ddkto
 github_username:  daviddekoning
 
 # Build settings
-destination: ../daviddekoning.github.io/
 name: ddkto
 highlighter: rouge
 permalink: pretty

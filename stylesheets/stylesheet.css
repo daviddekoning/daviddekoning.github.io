@@ -62,6 +62,9 @@ a {
 a:hover {
   color: #2268b2;
 }
+a.title {
+  color: inherit;
+}
 
 header {
   padding-top: 40px;
