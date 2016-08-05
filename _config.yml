@@ -10,5 +10,5 @@ github_username:  daviddekoning
 # Build settings
 destination: ../daviddekoning.github.io/
 name: ddkto
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
