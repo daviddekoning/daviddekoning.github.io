@@ -1,0 +1,15 @@
+# Site settings
+title: ddkto
+email: david@dekoning.ca
+description: "ddkto's thoughts"
+baseurl: ""
+url: "http://daviddekoning.github.io"
+twitter_username: ddkto
+github_username:  daviddekoning
+
+# Build settings
+destination: ../daviddekoning.github.io/
+name: ddkto
+markdown: redcarpet
+highlighter: pygments
+permalink: pretty
