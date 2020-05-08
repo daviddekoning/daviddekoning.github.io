@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ddkto's ramblings
+regenerate: true
 ---
 # {{page.title}}
 
