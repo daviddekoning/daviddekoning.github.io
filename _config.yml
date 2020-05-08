@@ -11,4 +11,4 @@ github_username:  daviddekoning
 name: ddkto
 highlighter: rouge
 permalink: pretty
-incremental: true
+incremental: false
