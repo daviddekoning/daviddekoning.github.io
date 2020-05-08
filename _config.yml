@@ -3,7 +3,7 @@ title: ddkto
 email: david@dekoning.ca
 description: "ddkto's thoughts"
 baseurl: ""
-url: "http://daviddekoning.github.io"
+url: "http://david.dekoning.ca"
 twitter_username: ddkto
 github_username:  daviddekoning
 
@@ -11,3 +11,4 @@ github_username:  daviddekoning
 name: ddkto
 highlighter: rouge
 permalink: pretty
+incremental: true
