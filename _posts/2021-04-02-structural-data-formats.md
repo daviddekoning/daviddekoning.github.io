@@ -42,7 +42,7 @@ Part of Buro Happold's [Building Habitat Object Model](https://bhom.xyz), this f
 similar to Speckle Structural in that the  geometric entities inherit from generic geometric 
 schema and so can be ingested by non-strutural design software.
 
-## [Strutural Analysis Format](https://saf.guide)
+## [Structural Analysis Format](https://saf.guide)
 
 SAF is an initiative from the [Nemetschek Group](https://www.nemetschek.com/) to improve the collaboration between structural 
 engineers by developing an open exchange format for exchanging data between structural 
