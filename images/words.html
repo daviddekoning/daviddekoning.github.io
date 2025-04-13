@@ -266,7 +266,7 @@
                 const displayText = [...this.words];
                 for (const index of this.blankedIndices) {
                     // Replace with spaces matching the word length
-                    displayText[index] = ' '.repeat(displayText[index].length);
+                    displayText[index] = '\u00A0'.repeat(displayText[index].length);
                 }
                 
                 // Update the text display
